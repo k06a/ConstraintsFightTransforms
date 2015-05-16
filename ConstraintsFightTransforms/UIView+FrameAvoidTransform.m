@@ -22,6 +22,9 @@
 
 - (CGRect)xxx_frame
 {
+    if (CGAffineTransformIsIdentity(self.transform))
+        return [self xxx_frame];
+    
     return CGRectOffset(self.bounds,
                         self.center.x-CGRectGetWidth(self.bounds)/2,
                         self.center.y-CGRectGetHeight(self.bounds)/2);
@@ -29,6 +32,9 @@
 
 - (void)xxx_setFrame:(CGRect)frame
 {
+    if (CGAffineTransformIsIdentity(self.transform))
+        return [self xxx_setFrame:frame];
+    
     self.bounds = (CGRect){CGPointZero,frame.size};
     self.center = CGPointMake(CGRectGetMidX(frame),
                               CGRectGetMidY(frame));
