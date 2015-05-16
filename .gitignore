@@ -1,6 +1,9 @@
+# Mac OS X
+*.DS_Store
+
 # Xcode
-.DS_Store
-build/
+Build/
+**/build/*
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -9,6 +12,11 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
 xcuserdata
+profile
 *.moved-aside
-DerivedData
+
+# CocoaPods
+Pods/

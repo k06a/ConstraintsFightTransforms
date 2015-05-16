@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2575675D1B073F9C00E26DB2 /* UIView+FrameAvoidTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2575675C1B073F9C00E26DB2 /* UIView+FrameAvoidTransform.m */; };
+		3FFE42F40E3456D0B5575429 /* libPods-ConstraintsFightTransforms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E3BD0D1B171C1186C82BEA /* libPods-ConstraintsFightTransforms.a */; };
 		66F2B5E7196F9E00007410A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F2B5E6196F9E00007410A8 /* Foundation.framework */; };
 		66F2B5E9196F9E00007410A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F2B5E8196F9E00007410A8 /* CoreGraphics.framework */; };
 		66F2B5EB196F9E00007410A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F2B5EA196F9E00007410A8 /* UIKit.framework */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2575675B1B073F9C00E26DB2 /* UIView+FrameAvoidTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAvoidTransform.h"; sourceTree = "<group>"; };
+		2575675C1B073F9C00E26DB2 /* UIView+FrameAvoidTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAvoidTransform.m"; sourceTree = "<group>"; };
 		66F2B5E3196F9E00007410A8 /* ConstraintsFightTransforms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstraintsFightTransforms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F2B5E6196F9E00007410A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66F2B5E8196F9E00007410A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -34,11 +38,14 @@
 		66F2B5FE196F9E00007410A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66F2B61B196FA27E007410A8 /* TransformsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformsViewController.h; sourceTree = "<group>"; };
 		66F2B61C196FA27E007410A8 /* TransformsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformsViewController.m; sourceTree = "<group>"; };
+		6D09494700387D03C9C55EA2 /* Pods-ConstraintsFightTransforms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstraintsFightTransforms.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConstraintsFightTransforms/Pods-ConstraintsFightTransforms.release.xcconfig"; sourceTree = "<group>"; };
 		7D5CFB6E1AEDB76A00C889F0 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		7DCAB33A19B6C1B100D133E9 /* UIColor+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
 		7DCAB33B19B6C1B100D133E9 /* UIColor+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
 		7DCAB33D19B6C1C000D133E9 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		7DCAB33E19B6C1C000D133E9 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		86047AABA062F56E6457AFD8 /* Pods-ConstraintsFightTransforms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstraintsFightTransforms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConstraintsFightTransforms/Pods-ConstraintsFightTransforms.debug.xcconfig"; sourceTree = "<group>"; };
+		98E3BD0D1B171C1186C82BEA /* libPods-ConstraintsFightTransforms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConstraintsFightTransforms.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,18 +56,38 @@
 				66F2B5E9196F9E00007410A8 /* CoreGraphics.framework in Frameworks */,
 				66F2B5EB196F9E00007410A8 /* UIKit.framework in Frameworks */,
 				66F2B5E7196F9E00007410A8 /* Foundation.framework in Frameworks */,
+				3FFE42F40E3456D0B5575429 /* libPods-ConstraintsFightTransforms.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24D5001AC2FE732652481A35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86047AABA062F56E6457AFD8 /* Pods-ConstraintsFightTransforms.debug.xcconfig */,
+				6D09494700387D03C9C55EA2 /* Pods-ConstraintsFightTransforms.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2575675A1B073F7800E26DB2 /* UIView+FrameAvoidTransform */ = {
+			isa = PBXGroup;
+			children = (
+				2575675B1B073F9C00E26DB2 /* UIView+FrameAvoidTransform.h */,
+				2575675C1B073F9C00E26DB2 /* UIView+FrameAvoidTransform.m */,
+			);
+			name = "UIView+FrameAvoidTransform";
+			sourceTree = "<group>";
+		};
 		66F2B5DA196F9E00007410A8 = {
 			isa = PBXGroup;
 			children = (
 				66F2B5EC196F9E00007410A8 /* ConstraintsFightTransforms */,
 				66F2B5E5196F9E00007410A8 /* Frameworks */,
 				66F2B5E4196F9E00007410A8 /* Products */,
+				24D5001AC2FE732652481A35 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +105,7 @@
 				66F2B5E6196F9E00007410A8 /* Foundation.framework */,
 				66F2B5E8196F9E00007410A8 /* CoreGraphics.framework */,
 				66F2B5EA196F9E00007410A8 /* UIKit.framework */,
+				98E3BD0D1B171C1186C82BEA /* libPods-ConstraintsFightTransforms.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,6 +113,7 @@
 		66F2B5EC196F9E00007410A8 /* ConstraintsFightTransforms */ = {
 			isa = PBXGroup;
 			children = (
+				2575675A1B073F7800E26DB2 /* UIView+FrameAvoidTransform */,
 				66F2B5F5196F9E00007410A8 /* AppDelegate.h */,
 				66F2B5F6196F9E00007410A8 /* AppDelegate.m */,
 				66F2B61B196FA27E007410A8 /* TransformsViewController.h */,
@@ -118,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66F2B615196F9E00007410A8 /* Build configuration list for PBXNativeTarget "ConstraintsFightTransforms" */;
 			buildPhases = (
+				A9FA660E30A79D9A1D8109D9 /* Check Pods Manifest.lock */,
 				66F2B5DF196F9E00007410A8 /* Sources */,
 				66F2B5E0196F9E00007410A8 /* Frameworks */,
 				66F2B5E1196F9E00007410A8 /* Resources */,
+				F6ACD27E20EAFBBFAAC27163 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +202,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9FA660E30A79D9A1D8109D9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6ACD27E20EAFBBFAAC27163 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConstraintsFightTransforms/Pods-ConstraintsFightTransforms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66F2B5DF196F9E00007410A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -181,6 +245,7 @@
 				7DCAB33C19B6C1B100D133E9 /* UIColor+Theme.m in Sources */,
 				66F2B5F3196F9E00007410A8 /* main.m in Sources */,
 				66F2B61D196FA27E007410A8 /* TransformsViewController.m in Sources */,
+				2575675D1B073F9C00E26DB2 /* UIView+FrameAvoidTransform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +345,7 @@
 		};
 		66F2B616196F9E00007410A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86047AABA062F56E6457AFD8 /* Pods-ConstraintsFightTransforms.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -294,6 +360,7 @@
 		};
 		66F2B617196F9E00007410A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D09494700387D03C9C55EA2 /* Pods-ConstraintsFightTransforms.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
